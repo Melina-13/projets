@@ -1,0 +1,100 @@
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#button-return {
+    margin: 38px 0 -23px 25px;
+    font-size: 17px;
+    font-weight: 600;
+}
+
+/* Button return */
+#button-return a {
+    font-weight: 500;
+    padding: 0 0 0 1064px;
+    font-size: 17px;
+    text-decoration: none;
+    color: #333;
+}
+
+#background img{
+    opacity: 0.09;
+    width: 700px;
+    margin: 91px 0 0 298px;
+}
+
+#icon-user {
+    margin: -550px 0 364px 596px;
+    width: 68px;
+}
+
+#p1 {
+    margin: -361px 0 22px 599px;
+    font-size: 19px;
+}
+
+#login, #password, #button-confirmation {
+    margin-bottom: 20px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Style des champs d'entrée */
+input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+input[type="email"]:focus, input[type="password"]:focus {
+    border-color: #797a79;
+    outline: none;
+    box-shadow: 0 0 5px #797a79;
+}
+
+/* Texte du mot de passe et lien oublié */
+#password-label {
+    font-size: 14px;
+    color: #333;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+#forgot-password {
+    font-size: 12px;
+    color: #797a79;
+    text-align: right;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+#forgot-password:hover {
+    text-decoration: underline;
+}
+
+/* Bouton de confirmation */
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #9d9f9d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color:#797a79;
+}
+
+#menu-login {
+    margin: 19px 0 5px 437px;
+}
